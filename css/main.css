@@ -1,0 +1,36 @@
+* {
+    outline: 1px solid rgba(255,0,0,0.4);
+    font-family: "Annie Use Your Telescope";
+    /*
+    font-family: "Crafty Girls";
+    font-family: "Life Savers";
+    font-family: "Rouge Script";
+    font-family: "Stalemate";*/
+}
+header {
+    position: relative;
+    z-index: 1;
+}
+section {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    display: none;
+    opacity: 0;
+}
+.content {
+    display: table-cell;
+    vertical-align: middle;
+}
+#welcome {
+    opacity: 1;
+}
+#welcome h1 {
+    margin-bottom: 110px;
+}
+.visible {
+    opacity: 1;
+    display: table;
+}
